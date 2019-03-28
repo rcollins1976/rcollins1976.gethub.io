@@ -1,0 +1,79 @@
+h1 {
+	font-size: 22pt;
+}
+h1 {
+	font-size: 30pt;
+}
+
+h2 {
+	font-size: 23pt;
+}
+
+h3 {
+	font-size: 10pt;
+}
+
+p {
+	font-size: 16pt;
+
+    color: #0000FF;
+}
+
+.myclassname {
+	font-size: 40pt;}
+h1 {
+	font-size: 60pt;
+	font-weight: normal;
+
+}
+
+
+
+
+.animation {
+	width: 300px;
+	height: 300px;
+	background-color: #FF0000;
+transition-timing-function: linear;
+	transition-duration: 1s;}
+.field {
+	image-align: left;
+	width: 500px;
+	height: 500px;
+	background-color: #A0FFA0;
+}
+
+.face {
+	float: left;
+	position: relative;// This is a function.
+function doSomething() {
+	alert("Hello, World");
+}
+
+	width: 100px;
+	height: 100px;
+	background: url("https://aldaroncs.github.io/face.svg");
+	top: 0px;
+	left: 0px;
+	animation-name: animation;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+
+@keyframes animation {
+	0%   {top:0px; left:0px; background: url("https://aldaroncs.github.io/face.svg")}
+	20%  {top:400px; left:400px; background: url("https://aldaroncs.github.io/face.svg")}
+	40%  {top:400px; left:400px; background: url("https://aldaroncs.github.io/face2.svg")}
+	60%  {top:400px; left:400px; background: url("https://aldaroncs.github.io/face.svg")}
+	80%  {top:0px; left:0px; background: url("https://aldaroncs.github.io/face.svg")}
+	100% {top:0px; left:0px; background: url("https://aldaroncs.github.io/face2.svg")}
+}
+
+
+
+
+}
+
+.animation:hover {
+	background-color: #00FF00;}
+
